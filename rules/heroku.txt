@@ -1,0 +1,2 @@
+||heroku.com
+||herokucdn.com

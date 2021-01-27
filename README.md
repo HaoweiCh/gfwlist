@@ -2,6 +2,7 @@
 
 > wrt 的规则用的 gfwlist ， 但是很多站点资源的域名都没有包括进来，自己写点脚本整理最新脚本
 
+
 |[Annoucements & Discussions][chat-room]|
 |:---:|
 | [![chat-metadata]][chat-room]|
@@ -16,7 +17,6 @@
 ******
 
 # gfwlist
-## The OFFICIAL gfwlist here!
 
 Everyone knows that netizens in Mainland China are under oppression. There is a government-run firewall that blocks and interferes with websites containing sensitive or unwanted information. Meanwhile there’s an extensive network of self-censors in all domestic Internet companies who delete contents which might incur the wrath of the people behind the rigorous censorship regime, while there are also lots of websites refuse to crouch. Hence they are often blocked.
 
@@ -28,6 +28,10 @@ TL;DR: This list embraces websites which Chinese authorities and some service pr
 
 ---
 ## If you want to report, make sure check our [wiki](https://github.com/gfwlist/gfwlist/wiki/Cautions) first.
+
+## 规则说明
+
+* https://honglu.me/2015/06/26/ShadowSocks%E8%87%AA%E5%AE%9A%E4%B9%89%E8%A7%84%E5%88%99/
 
 ## In case you want to request anonymity, you can send report to us directly, please visit [this profile](https://github.com/cicku) to retrieve the email address.
 
