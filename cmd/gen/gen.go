@@ -6,13 +6,40 @@ import (
 	"encoding/base64"
 	"encoding/json"
 	"fmt"
-	customRuleUseCase "gfwlist/usecases/customrule"
 	"github.com/spf13/cobra"
 	"io/ioutil"
 	"log"
 	"os"
 	"strings"
 )
+
+var (
+	includeRules []string // 强制走代理规则条数
+	excludeRules []string // 强制不走代理规则条数
+	otherRules   []string
+)
+
+func IsRuleExists(rule string) bool {
+	for _, item := range includeRules {
+		if rule == item {
+			return true
+		}
+	}
+
+	for _, item := range excludeRules {
+		if rule == item {
+			return true
+		}
+	}
+
+	for _, item := range otherRules {
+		if rule == item {
+			return true
+		}
+	}
+
+	return false
+}
 
 func Gen(cmd *cobra.Command, args []string) {
 	fmt.Println("gen called")
@@ -35,15 +62,11 @@ func Gen(cmd *cobra.Command, args []string) {
 	out := make([]byte, base64.StdEncoding.EncodedLen(len(all)))
 	log.Println(base64.StdEncoding.Decode(out, all))
 	scanner := bufio.NewScanner(bytes.NewReader(out))
-	var (
-		includeRules []string // 强制走代理规则条数
-		excludeRules []string // 强制不走代理规则条数
-		otherRules   []string
-	)
+
 	for scanner.Scan() {
 		line := scanner.Text()
 		if strings.Contains(line, "---EOF---") {
-			customRuleUseCase.Add(writer)
+			Add(writer)
 		} else {
 			_, _ = writer.WriteString(line + "\n")
 
