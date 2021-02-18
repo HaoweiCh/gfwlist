@@ -10,6 +10,8 @@
 @@||apple.com.cn
 @@||360buyimg.com
 @@||192.168.*.*
+@@||csdnimg.cn
+@@||juejin.im
 
 
 ||mm-cg.com
@@ -40,6 +42,7 @@
 ||dartlang.org
 ||changelog.com
 ||jav.guru
+||pornbest.org
 ||chinadigitaltimes.net
 ||github.com
 ||cloudflare.com
@@ -59,3 +62,8 @@
 ||notion.so
 ||programming-idioms.org
 ||alicdn.com
+
+||anynode.net
+||v2ex.com
+||googletagmanager.com
+||boostnote.io
