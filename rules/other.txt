@@ -12,6 +12,7 @@
 @@||192.168.*.*
 @@||csdnimg.cn
 @@||juejin.im
+@@||jd.com
 
 
 ||mm-cg.com
@@ -67,3 +68,9 @@
 ||v2ex.com
 ||googletagmanager.com
 ||boostnote.io
+||serverplatform.io
+||aolcdn.com
+||yahoo.com
+||checkra.in
+||appdb.to
+||disquscdn.com
