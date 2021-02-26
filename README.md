@@ -2,6 +2,8 @@
 
 > wrt 的规则用的 gfwlist ， 但是很多站点资源的域名都没有包括进来，自己写点脚本整理最新脚本
 
+* TODO
+  * 整理 列表 https://h2y.github.io/Shadowrocket-ADBlock-Rules/sr_top500_banlist.conf
 
 |[Annoucements & Discussions][chat-room]|
 |:---:|
