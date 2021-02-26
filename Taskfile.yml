@@ -11,3 +11,6 @@ tasks:
       - go run . gen
       - go run . encode
     silent: true
+  gfw:
+    cmds:
+      - wget -O gfwlist.txt https://raw.githubusercontent.com/gfwlist/gfwlist/master/gfwlist.txt
