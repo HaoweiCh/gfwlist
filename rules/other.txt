@@ -103,3 +103,6 @@
 ||adobe.com
 ||adobe.io
 ||jetbrains.com
+||kubernetes.io
+||serverplatform.io
+||go.dev
