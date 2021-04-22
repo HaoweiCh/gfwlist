@@ -97,3 +97,9 @@
 ||bintray.com
 ||apps.evozi.com
 ||synocommunity.com
+
+||pock.dev
+||docker.io
+||adobe.com
+||adobe.io
+||jetbrains.com
