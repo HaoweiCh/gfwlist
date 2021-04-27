@@ -105,6 +105,5 @@
 ||draw.io
 ||pusher.com
 ||apple.com
-
 ||elastic.co
 ||theme-next.org
